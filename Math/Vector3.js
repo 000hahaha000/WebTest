@@ -10,7 +10,7 @@ Vector3.prototype.Add = function(v) {
 	this.z+=v.z;
 };
 
-Vector3.prototype.Sub = function(v){
+Vector3.prototype.sub = function(v){
 	this.x -= v.x;
 	this.y -= v.y;
 	this.z -= v.z;
